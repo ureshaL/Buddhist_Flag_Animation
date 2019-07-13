@@ -1,0 +1,39 @@
+body{
+    margin: 0;
+    background-color: #e0f7fa;
+}
+
+h1{
+    position: absolute;
+    text-align: center;
+    margin: auto;
+    top: 60px;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+
+.container{
+    width: 40vw;
+    height: 50vh;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+}
+
+.container section{
+    width: calc(100% / 6);
+    height: 100%;
+    float: left;
+}
+
+.container section aside{
+    height: calc(100% / 5);
+}
+
+.active{
+    filter: brightness(90%);
+}
